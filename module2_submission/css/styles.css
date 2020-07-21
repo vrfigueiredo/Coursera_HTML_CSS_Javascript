@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0px;
 }
 
 body {
@@ -16,11 +14,12 @@ header {
     text-align: center;
 }
 
-.col-lg, .col-md-1, .col-md-2, .col-sm {
+.container {
     text-align: justify;
     border: 1px solid black;
     background-color: lightgrey;
     color: black;
+    margin:0px;
 }
 
 .title1, .title2, .title3 {
@@ -32,6 +31,7 @@ header {
     color: white;
     width: 120px;
     height: 40px;
+    margin:0px;
 }
 
 .title1{
@@ -49,6 +49,7 @@ header {
 p {
     clear: both;
     padding: 10px;
+    margin: 0px;
 }
 
 
@@ -58,6 +59,7 @@ p {
     .col-lg {
         float: left;
         width: 33.33%;
+        padding: 10px;
     }
 }
 
@@ -68,11 +70,13 @@ p {
     .col-md-1 {
         float: left;
         width: 50%;
+        padding: 10px;
     }
     .col-md-2 {
         float: none;
         width: 100%;
         clear: both;
+        padding: 10px;
     }
 }
 
@@ -84,5 +88,6 @@ p {
         float: none;
         clear: both;
         width: 100%;
+        padding: 10px;
     }
 }
