@@ -1,8 +1,4 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
+#body {
     background-color: white;
     font-size: 16px;
     color: black;
@@ -50,6 +46,10 @@ body {
 
 /** MAIN CONTENT **/
 
+#main-content {
+    margin-bottom: 30px;
+}
+
 #main-content h2 {
     margin: 30px;
     padding: 10px;
@@ -57,8 +57,9 @@ body {
     font-size: 3em;
 }
 
-#chicken, #beef, #sushi {
+.inner {
     background-color: #7395AE;
+    margin: 5px;
     border: solid 5px #5D5C61;
 }
 
@@ -67,9 +68,12 @@ body {
     font-size: 2em;
 }
 
+p {
+    padding: 10px;
+}
+
 #main-content a {
     color: white;
-    text-align: center;
     text-decoration: none;
 }
 
@@ -77,3 +81,8 @@ body {
     color: #557A95;
 }
 
+.col-sm-12 {
+    margin-top: 15px;
+}
+
+/** END MAIN CONTENT **/
